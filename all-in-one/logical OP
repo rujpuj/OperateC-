@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 10, c = 0;
+
+    // Logical AND
+    if (a && b) {
+        printf("Both a and b are non-zero.\n");
+    }
+
+    // Logical OR
+    if (a || c) {
+        printf("At least one of a or c is non-zero.\n");
+    }
+
+    // Logical NOT
+    if (!c) {
+        printf("c is zero.\n");
+    }
+
+    return 0;
+}
